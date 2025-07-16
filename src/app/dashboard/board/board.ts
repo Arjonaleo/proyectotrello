@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-board',
-  standalone: false,
   templateUrl: './board.html',
-  styleUrl: './board.scss'
+  styleUrls: ['./board.scss']
 })
 export class Board {
-
+  title = 'Task Board';
 }
